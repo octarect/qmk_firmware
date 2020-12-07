@@ -40,6 +40,7 @@ __attribute__((weak)) RGB rgb_matrix_hsv_to_rgb(HSV hsv) { return hsv_to_rgb(hsv
 #include "rgb_matrix_runners/effect_runner_sin_cos_i.h"
 #include "rgb_matrix_runners/effect_runner_reactive.h"
 #include "rgb_matrix_runners/effect_runner_reactive_splash.h"
+#include "rgb_matrix_runners/effect_runner_reactive_splash_buf.h"
 
 // ------------------------------------------
 // -----Begin rgb effect includes macros-----
